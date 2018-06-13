@@ -41,7 +41,7 @@ function gui_audiosettings() {
                 #amixer cset numid=3 1
                 #alsactl store
 		sudo mv /etc/modprobe.d/alsa-base.conf.bak /etc/modprobe.d/alsa-base.conf
-                printMsgs "dialog" "Set audio output to Retro Nova internal Speaker"
+                printMsgs "dialog" "Set audio output to Retronova internal Speaker"
 		sleep 2
                 printMsgs "dialog" "Press A Button to reboot..."
                 sleep 2
@@ -51,7 +51,7 @@ function gui_audiosettings() {
                 #amixer cset numid=3 2
                 #alsactl store
 		sudo mv /etc/modprobe.d/alsa-base.conf /etc/modprobe.d/alsa-base.conf.bak
-                printMsgs "dialog" "Set audio output to HDMI"
+                printMsgs "dialog" "Set Audio output to HDMI"
 		sleep 2
 		printMsgs "dialog" "Press A Button to reboot..."
 		sleep 2
